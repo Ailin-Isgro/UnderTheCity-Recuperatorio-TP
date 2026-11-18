@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Piso
+  - Rata
+  - Ventilador
+  - Vagabundo
+  - Caja
+  - Acido
+  - "Vac\xEDo"
+  - "Polic\xEDa"
+  - Gato
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Oscuridad
+  - Water
+  - UI
+  - Vagabundo
+  - Rata
+  - Caja
+  - "Ca\xF1erias"
+  - Plataformas
+  - Botones
+  - Policia
+  - PlataformaRompible
+  - Topes
+  - Gato
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Oscuridad
+    uniqueID: 3687064283
+    locked: 0
+  - name: Personajes
+    uniqueID: 1110979861
+    locked: 0
+  - name: Paredes
+    uniqueID: 3140241391
+    locked: 0
+  - name: Plataformas
+    uniqueID: 1560644843
+    locked: 0
+  - name: Grafitis
+    uniqueID: 3617469919
+    locked: 0
+  m_RenderingLayers:
+  - Default

@@ -1,0 +1,42 @@
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class MenuPrincipal : MonoBehaviour
+{
+    public void Jugar()
+    {
+        SceneManager.LoadScene("Niveles");
+    }
+
+    public void Nivel1()
+    {
+        SceneManager.LoadScene("nivel 1");
+    }
+
+    public void Nivel2()
+    {
+        SceneManager.LoadScene("nivel 2");
+    }
+
+    public void VolverAlMenu()
+    {
+        SceneManager.LoadScene("Menu");
+    }
+
+    public void Controles()
+    {
+        SceneManager.LoadScene("Controles");
+    }
+
+    public GameObject panelCreditos;
+
+    public void AbrirCreditos()
+    {
+        panelCreditos.SetActive(true);
+    }
+
+    public void CerrarCreditos()
+    {
+        panelCreditos.SetActive(false);
+    }
+}
